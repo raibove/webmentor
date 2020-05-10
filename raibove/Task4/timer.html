@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timer</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="my_timer.css">
+</head>
+<body >
+<main>
+		<p id= "title">Timer</p><input type="text" name="time" placeholder="Enter the time" id="time" onkeyup="getTime()">
+		<button onclick="countdown()" id="go">Go</button>
+		<button id ="stop" onclick="stopTime()">Stop</button>
+		<p id= "timer"><span id = "minutes">0</span>:<span id="seconds">0</span></p>
+		<button id="reset" onclick="resetTime()">Reset</button>
+</main>
+<footer id="footer">
+	<div id="name">Made with <span style="color: #e25555;">❤</span> by <a style="color: #000; text-decoration: none;"  href="https://www.linkedin.com/in/shweta-kale-329674176/">Shweta Kale</a><span></span></div>
+
+<div id = "connect">
+<a  href="https://www.linkedin.com/in/shweta-kale-329674176/" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/shwetak144/" class="fa fa-instagram"></a>
+</div>
+
+</footer>
+<script type="text/javascript" src="my_timer.js"></script>
+</body>
+</html>
